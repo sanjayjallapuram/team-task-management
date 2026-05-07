@@ -3,22 +3,21 @@
 # Live Links:
 
 Frontend URL: https://team-task-managment-frontend.onrender.com
+
 Backend URL: https://team-task-management-backend-1.onrender.com
 
 # GitHub Repository
 
-https://github.com/your-username/team-task-manager
+https://github.com/sanjayjallapuram/team-task-management
 
 # Backend Setup
 
 ## 1. Clone Repository
 
-bash
-git clone https://github.com/your-username/team-task-manager.git
+git clone https://github.com/sanjayjallapuram/team-task-management.git
 
 ## 2. Navigate to Backend
 
-bash
 cd backend
 
 ## 3. Configure Environment Variables
@@ -89,9 +88,9 @@ git push
 
 ## 2. Create New Project
 
-* Open Render
-* Connect GitHub repository
-* Select backend repository
+Open Render
+Connect GitHub repository
+Select backend repository
 
 ## 3. Add Environment Variables
 
@@ -116,8 +115,8 @@ git push
 
 ## 2. Create Frontend Project
 
-* Import GitHub repository
-* Select frontend repository
+Import GitHub repository
+Select frontend repository
 
 ## 3. Add Environment Variable
 
