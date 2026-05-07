@@ -95,7 +95,9 @@ Select backend repository
 ## 3. Add Environment Variables
 
 MONGO_URI=your_mongodb_uri
+
 JWT_SECRET=your_secret
+
 FRONTEND_URLS=https://your-frontend-url.com
 
 ## 4. Deploy Backend
@@ -253,7 +255,9 @@ backend/
 ## Authentication
 
 http
+
 POST /api/auth/signup
+
 POST /api/auth/login
 
 ## Projects
