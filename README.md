@@ -163,15 +163,25 @@ dist
 ## Frontend Structure
 
 frontend/
+
  ├── src/
+
  │    ├── api/
+ 
  │    ├── components/
+ 
  │    ├── context/
+ 
  │    ├── pages/
+ 
  │    ├── routes/
+ 
  │    ├── styles/
+ 
  │    └── App.jsx
+ 
  ├── public/
+ 
  └── package.json
 
 ## Backend Structure
