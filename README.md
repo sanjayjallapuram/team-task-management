@@ -158,48 +158,6 @@ dist
 * Frontend: Render
 * Backend: Render 
 
-# Project Structure
-
-## Frontend Structure
-
-frontend/
-
- ├── src/
-
- │    ├── api/
- 
- │    ├── components/
- 
- │    ├── context/
- 
- │    ├── pages/
- 
- │    ├── routes/
- 
- │    ├── styles/
- 
- │    └── App.jsx
- 
- ├── public/
- 
- └── package.json
-
-## Backend Structure
-
-backend/
- ├── src/main/java/
- │    ├── config/
- │    ├── controller/
- │    ├── dto/
- │    ├── entity/
- │    ├── repository/
- │    ├── security/
- │    ├── service/
- │    └── util/
- ├── src/main/resources/
- └── pom.xml
-
-
 # Features
 
 ## Authentication
