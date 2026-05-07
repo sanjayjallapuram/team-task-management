@@ -18,7 +18,9 @@ public class CorsConfig {
 
         config.setAllowCredentials(true);
 
-        config.addAllowedOrigin("http://localhost:5173");
+        config.addAllowedOrigin(
+//                "http://localhost:5173",
+                "https://team-task-managment-frontend.onrender.com");
 
         config.addAllowedHeader("*");
 
