@@ -10,6 +10,9 @@ import org.springframework.web.filter.CorsFilter;
 
 public class CorsConfig {
 
+    @Value("${frontend.url}")
+    private String frontendUrl;
+    
     @Bean
     public CorsFilter corsFilter() {
 
@@ -18,9 +21,7 @@ public class CorsConfig {
 
         config.setAllowCredentials(true);
 
-        config.addAllowedOrigin(
-//                "http://localhost:5173",
-                "https://team-task-managment-frontend.onrender.com");
+        config.addAllowedOrigin(frontendUrl);
 
         config.addAllowedHeader("*");
 
