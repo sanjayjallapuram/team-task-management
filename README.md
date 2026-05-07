@@ -239,6 +239,15 @@ backend/
 * View Assigned Tasks Only
 * Update Assigned Task Status
 
+# Security Features
+
+* JWT Authentication
+* Password Encryption using BCrypt
+* Protected APIs
+* Role-Based Authorization
+* Spring Security
+* CORS Configuration
+
 # API Endpoints
 
 ## Authentication
@@ -250,33 +259,36 @@ POST /api/auth/login
 ## Projects
 
 http
+
 POST /api/projects
+
 GET /api/projects/my
+
 PUT /api/projects/{projectId}/members/{userId}
+
 DELETE /api/projects/{projectId}/members/{userId}
 
 ## Tasks
 
 http
+
 POST /api/tasks/{projectId}
+
 GET /api/tasks/{projectId}
+
 PUT /api/tasks/{taskId}/status
+
 PUT /api/tasks/{taskId}/add-users
+
 DELETE /api/tasks/{taskId}/remove-user/{userId}
 
 ## Dashboard
 
 http
+
 GET /api/dashboard
 
-# Security Features
 
-* JWT Authentication
-* Password Encryption using BCrypt
-* Protected APIs
-* Role-Based Authorization
-* Spring Security
-* CORS Configuration
 
 # Demo Video
 
